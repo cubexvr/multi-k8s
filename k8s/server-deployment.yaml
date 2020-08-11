@@ -16,7 +16,7 @@ spec:
         - name: server
           ports:
             - containerPort: 5000
-          image: stephengrider/multi-server
+          image: cubexvr/multi-server
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service

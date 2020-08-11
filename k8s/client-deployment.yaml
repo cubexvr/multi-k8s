@@ -16,4 +16,4 @@ spec:
         - name: client
           ports:
             - containerPort: 3000
-          image: stephengrider/multi-client
+          image: cubexvr/multi-client
